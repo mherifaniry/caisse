@@ -1,0 +1,177 @@
+body{
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  line-height: 1.5;
+}
+a{
+  color: #0969da;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+hr{
+    height: 4px;
+    background: #e0d396;
+    border: solid #e0d396 1px;
+}
+
+h1{
+    font-size: 20px;
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+}
+
+div.deletable{
+  /* border: solid black 1px; */
+  margin: 4px 0px 2px 0px;
+  padding: 2px 0px 2px 4px;
+  /* border-radius: 5px; */
+}
+
+div.body_gauche{
+  border: solid #e0d396 1px;
+  padding: 15px;
+}
+
+button.green{
+  margin-top: 15px;
+  background: #8bc34a;
+  border: solid #129d12 1px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+button.grey{
+  background: #424242;
+  color: #fff;
+  border: solid #424242 1px;
+  font-size: 15px;
+}
+button{
+  height: 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: auto;
+  border: solid black 1px;
+    color: #fff;
+}
+
+label{
+  left: 6px;
+  top: 2px;
+  cursor: pointer;
+  margin: 2px 2px 2px 0px;
+  padding: 0.25rem 0.5rem;
+  font-size: .875rem;
+  border-radius: 0.2rem;
+  font-weight: bold;
+  background-color: transparent !important;
+}
+label.supp{
+  position: relative;
+  border: solid #ff7f7f 1px;
+  background: #ff7f7f;
+  color: #ff7f7f;
+  font-weight: 100;
+}
+
+label.supp:hover{
+  color: #f71e07;
+  background-color: #fff;
+  border-color: #f71e07;
+}
+
+label.edit{
+  position: relative;
+  background: #8bc34a;
+  border: solid #dee2e6 1px;
+  background-color: #fff;
+  color: #6c757d;
+  margin-bottom: 0! important;
+  font-weight: 100;
+}
+label.edit:hover{
+  color: #7952b3;
+  background-color: #fff;
+  border-color: #7952b3;
+}
+
+.nominal{
+    width: 150px;
+}
+
+div.block_nominal .droite{
+    text-align: left;
+}
+
+.nominalSelect{
+    width: 145px;
+    height:30px;
+}
+
+.quantiteInput{
+    width: 130px;
+    height:25.5px;
+}
+
+.flex{
+  display: flex;
+}
+
+.cinquante{
+  width: 50%;
+}
+
+.vingt{
+  width: 20%;
+}
+
+.soixante-dix{
+  width: 80%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+th.sorting{
+  text-align: left !important;
+}
+
+.alert{
+  color: red;
+}
